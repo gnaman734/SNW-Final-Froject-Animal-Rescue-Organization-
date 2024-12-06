@@ -1,0 +1,100 @@
+body{
+    background-image:linear-gradient(antiquewhite,#99d98c)
+}
+img{
+    width:500px;
+    height:300px;
+    margin-left:20px;
+    border-radius:10px;
+ 
+}
+
+#paraone{
+    font-size:20px;
+
+}
+
+#button1{
+    background-color:rgb(137, 205, 230);
+    border-radius:15px;
+    font-size:16px;
+    color:rgb(246, 239, 239);
+    border-color:transparent;
+    padding-left: 15px;
+    padding-right:15px;
+    border-width: 2px;
+
+
+}
+
+li{
+    list-style:none;
+    margin:0;
+    
+
+}
+
+
+
+.apply{
+background-color:rgb(137, 205, 230);
+color:rgb(246, 239, 239);
+border-color:transparent;
+border-radius:15px;
+font-size:14px;
+text-decoration: none;
+}
+
+
+#adopt{
+    width:80px;
+    height:auto;
+    background-color:aquamarine;
+    border:1px solid;
+    text-align:center;
+    border-radius:2px;
+    text-decoration-line: none;
+
+
+}
+
+
+#volunteer{
+    width:80px;
+    height:auto;
+    background-color:aquamarine;
+    border:1px solid;
+    text-align:center;
+    border-radius:2px;
+    text-decoration: none;
+
+
+}
+
+
+
+#donate{
+    width:80px;
+    height:auto;
+    background-color:aquamarine;
+    border:1px solid;
+    text-align:center;
+    border-radius:2px;
+    text-decoration: none;
+
+
+}
+
+section{
+    background-image:linear-gradient( to bottom right,#98c9a3,#dde7c7);
+    border-radius:8px;
+}
+
+
+
+
+
+
+
+
+

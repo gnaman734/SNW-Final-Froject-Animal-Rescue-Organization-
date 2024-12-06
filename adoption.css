@@ -1,0 +1,88 @@
+body{
+    background-color: #eaf1d0;
+}
+
+h1{
+    text-align:center;
+}
+
+input{
+    margin-bottom:5px;
+    
+}
+
+label{
+    font-size:18px;
+}
+
+sup{
+    color:rgb(177, 31, 31)
+}
+
+input[type="checkbox"] {
+    display:inline-block;
+    position: absolute;
+    left:0;
+    
+    z-index: 10;
+    width: 18px; 
+    height: 20px; 
+}
+span{
+    margin:20px;
+}
+
+button{
+    position: relative;
+    right:-400px;
+    background-color:rgb(174, 229, 236);
+    border-radius:10px;
+    border-color:rgba(19, 38, 40,50%) ;
+    font-size:16px
+
+}
+
+.form-container {
+    max-width: 350px;
+    margin: 0 ;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+
+
+label {
+    
+    margin-bottom: 10px;
+    display: block;
+}
+
+.signature-box {
+    width: 100%;
+    height: 100px;
+    border: 2px dashed #ccc;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1em;
+    color: #888;
+}
+
+textarea {
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: transparent;
+    font-size: 1.2em;
+    padding: 10px;
+    resize: none;
+    outline: none;
+}
+
+textarea:focus {
+    outline: none;
+}
+

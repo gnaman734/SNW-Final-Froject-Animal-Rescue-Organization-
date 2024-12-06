@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adoption</title>
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <link href="adoption.css" rel="stylesheet">
+</head>
+<body>
+    <h1>Pet Adoption Agreement Form</h1>
+
+    <form>
+        <label for="name">Name of the animal being adopted:<sup>*</sup></label>
+    <input  type="text" id="name" name="name">
+    <br>
+
+    <label for="first">Name of the adopter:<sup>*</sup></label>
+    <input type="text" id="first" name="firstname" placeholder="First">
+    <label for="last"></label>
+    <input  type="text" id="last" name="lastname" placeholder="Last">
+    <br>
+
+    <label for="email">Email address:<sup>*</sup></label>
+    <input type="email" id="email" name="email">
+    <br>
+
+    <label for="phone">Phone number:<sup>*</sup></label>
+    <input type="number" id="phone" name="email">
+    <br>
+
+
+    <input type="checkbox" id="box"  name="checkbox">
+   <label for="box"><span>I hereby understand and agree that the current owner makes no representations or warranties, expressed or implied, about the above-mentioned animal's temperament and is absolved from any liability for future damages or injuries caused by said animal. I also understand and agree that the current owner further gives no guarantees, expressed or implied, of the animal's suitability to the adopter and/or his family.</span>
+    </label>
+    
+    <br>
+    
+    
+    
+    <label for="date">Date:<sup>*</sup></label>
+    <input type="date" id="date" name="date">
+    <br>
+
+    <div class="form-container">
+        
+        <div class="signature-container">
+            <label for="signature">Signature:<sup>*</sup></label>
+            <div class="signature-box">
+                <textarea id="signature" placeholder="Draw or type your signature here..."></textarea>
+            </div>
+        </div>
+    </div>
+<br>
+  
+
+
+    <label for="verify" >Verification:</label>
+    <div class="g-recaptcha" data-sitekey="6LfJUZQqAAAAAJVah24hzvZZvGIyWL6XnVzw_TWq"></div>
+    <br>
+    
+    <button type="submit">SUBMIT FORM</button>
+
+
+
+    </form>
+
+    </body>
+</html>
