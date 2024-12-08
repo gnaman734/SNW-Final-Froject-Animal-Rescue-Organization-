@@ -4,218 +4,132 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Adoption Agreement</title>
-    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
     <style>
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-        }
-
-        :root {
-            --primary-color: #ff6e01;
-            --secondary-color: #f4f4f4;
-            --text-color: #333;
-            --accent-color: #ff8c3d;
-        }
-
         body {
-            font-family: 'Arial', sans-serif;
-            background: linear-gradient(135deg, #fff2e6 0%, #ffe6d1 100%);
-            line-height: 1.6;
-            color: var(--text-color);
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            color: #333;
+            padding: 20px;
             display: flex;
             justify-content: center;
             align-items: center;
             min-height: 100vh;
-            padding: 20px;
         }
 
-        .adoption-container {
+        .form-container {
             background: white;
-            border-radius: 12px;
-            box-shadow: 0 10px 25px rgba(255,110,1,0.1);
-            padding: 40px;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
             width: 100%;
-            max-width: 600px;
-            animation: fade-in 0.5s ease-out;
+            max-width: 500px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
         }
 
-        @keyframes fade-in {
-            from { opacity: 0; transform: translateY(20px); }
-            to { opacity: 1; transform: translateY(0); }
-        }
-
-        .form-title {
+        h1 {
             text-align: center;
-            color: var(--primary-color);
-            margin-bottom: 30px;
-            font-size: 2.5rem;
-            position: relative;
-        }
-
-        .form-title::after {
-            content: '';
-            display: block;
-            width: 80px;
-            height: 4px;
-            background: var(--primary-color);
-            margin: 10px auto 0;
-            border-radius: 2px;
-        }
-
-        .form-group {
+            color: #ff6e01;
             margin-bottom: 20px;
         }
 
-        .form-group label {
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
             display: block;
-            margin-bottom: 8px;
-            font-weight: 600;
-            color: var(--text-color);
+            margin-bottom: 5px;
+            font-weight: bold;
         }
 
-        .form-control {
+        input[type="text"], 
+        input[type="email"], 
+        input[type="tel"], 
+        input[type="date"] {
             width: 100%;
-            padding: 12px;
-            border: 2px solid #e0e0e0;
-            border-radius: 8px;
-            font-size: 16px;
-            transition: all 0.3s ease;
-        }
-
-        .form-control:focus {
-            outline: none;
-            border-color: var(--primary-color);
-            box-shadow: 0 0 0 3px rgba(255,110,1,0.1);
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
         }
 
         .name-group {
             display: flex;
-            gap: 15px;
+            gap: 10px;
         }
 
-        .name-group .form-control {
+        .name-group input {
             flex: 1;
         }
 
-        .checkbox-container {
+        .checkbox-group {
+            margin-bottom: 20px;
             display: flex;
             align-items: flex-start;
-            margin-bottom: 20px;
         }
 
-        .checkbox-container input[type="checkbox"] {
-            margin-right: 15px;
+        .checkbox-group input {
+            margin-right: 10px;
             margin-top: 5px;
-            appearance: none;
-            width: 20px;
-            height: 20px;
-            border: 2px solid var(--primary-color);
-            border-radius: 4px;
-            outline: none;
-            cursor: pointer;
-            position: relative;
         }
 
-        .checkbox-container input[type="checkbox"]:checked {
-            background-color: var(--primary-color);
-        }
-
-        .checkbox-container input[type="checkbox"]:checked::after {
-            content: '✓';
-            position: absolute;
-            color: white;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-        }
-
-        .checkbox-container label {
-            font-weight: normal;
-            font-size: 14px;
-            line-height: 1.4;
-        }
-
-        .submit-btn {
+        button {
             width: 100%;
-            padding: 15px;
-            background-color: var(--primary-color);
+            padding: 10px;
+            background-color: #ff6e01;
             color: white;
             border: none;
-            border-radius: 8px;
-            font-size: 18px;
+            border-radius: 5px;
+            font-size: 16px;
             cursor: pointer;
-            transition: background-color 0.3s ease;
-            box-shadow: 0 4px 6px rgba(255,110,1,0.2);
         }
 
-        .submit-btn:hover {
-            background-color: #ff5500;
-            transform: translateY(-2px);
-        }
-
-        .recaptcha-container {
-            display: flex;
-            justify-content: center;
-            margin: 20px 0;
-        }
-
-        @media (max-width: 600px) {
-            .name-group {
-                flex-direction: column;
-                gap: 10px;
-            }
+        button:hover {
+            background-color: #e65a00;
         }
     </style>
 </head>
 <body>
-    <div class="adoption-container">
-        <h1 class="form-title">Pet Adoption Agreement</h1>
-        <form id="adoptionForm">
+    <div class="form-container">
+        <h1>Pet Adoption Agreement</h1>
+        <form>
             <div class="form-group">
-                <label for="animalName">Name of the Animal Being Adopted <sup>*</sup></label>
-                <input type="text" id="animalName" class="form-control" required placeholder="Enter animal's name">
+                <label for="animalName">Animal's Name</label>
+                <input type="text" id="animalName" placeholder="Enter animal's name" required>
             </div>
 
             <div class="form-group">
-                <label>Adopter's Name <sup>*</sup></label>
+                <label>Adopter's Name</label>
                 <div class="name-group">
-                    <input type="text" id="firstName" class="form-control" required placeholder="First Name">
-                    <input type="text" id="lastName" class="form-control" required placeholder="Last Name">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
                 </div>
             </div>
 
             <div class="form-group">
-                <label for="email">Email Address <sup>*</sup></label>
-                <input type="email" id="email" class="form-control" required placeholder="Enter your email">
+                <label for="email">Email Address</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
             </div>
 
             <div class="form-group">
-                <label for="phone">Phone Number <sup>*</sup></label>
-                <input type="tel" id="phone" class="form-control" required placeholder="Enter your phone number">
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
             </div>
 
             <div class="form-group">
-                <label for="date">Date <sup>*</sup></label>
-                <input type="date" id="date" class="form-control" required>
+                <label for="date">Adoption Date</label>
+                <input type="date" id="date" required>
             </div>
 
-            <div class="checkbox-container">
-                <input type="checkbox" id="agreement" name="agreement" required>
+            <div class="checkbox-group">
+                <input type="checkbox" id="agreement" required>
                 <label for="agreement">
-                    I hereby understand and agree that the current owner makes no representations or warranties, expressed or implied, about the above-mentioned animal's temperament and is absolved from any liability for future damages or injuries caused by said animal. I also understand and agree that the current owner further gives no guarantees, expressed or implied, of the animal's suitability to the adopter and/or his family.
+                    I agree to the terms and conditions of this adoption, including no guarantees about the animal's temperament or suitability.
                 </label>
             </div>
 
-
-            <div class="recaptcha-container">
-                <div class="g-recaptcha" data-sitekey="6LfJUZQqAAAAAJVah24hzvZZvGIyWL6XnVzw_TWq"></div>
-            </div>
-
-            <button type="submit" class="submit-btn">Submit Adoption Form</button>
+            <button type="submit">Submit Form</button>
         </form>
     </div>
-
 </body>
 </html>
