@@ -1,8 +1,8 @@
 🌟**Animal Rescue Organization** 
-A website dedicated to facilitating animal rescue operations and raising awareness about animal welfare. This project is created as part of the System and Web Essentials Final Project (SNW) at Newton School of Technology.
+A website dedicated for facilitating animal rescue operations and raising awareness about animal welfare. This project is created as part of the System and Web Essentials Final Project (SNW) at our college, Newton School of Technology.
 
 🐾 **About the Project**
-This project aims to support animal rescue initiatives by providing a platform to:
+Our project aims to support animal rescue initiatives by providing a platform to:
 
 Educate the community about animal rescue.
 Offer resources for animal shelters and volunteers.
