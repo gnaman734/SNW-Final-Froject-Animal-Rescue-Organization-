@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet Adoption Agreement</title>
     <link href="adoption.css" rel="stylesheet">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
 </head>
 <body>
     <div class="form-container">
@@ -45,7 +46,13 @@
                     I agree to the terms and conditions of this adoption, including no guarantees about the animal's temperament or suitability.
                 </label>
             </div>
-            <sup>Required Fields</sup>
+
+            <div>
+                <label for="verify">Verification</label>
+                <div class="g-recaptcha" data-sitekey="6Ld9BpcqAAAAAOTM6EkE0gLwtYO1tRvIUx7dJYL6"></div>
+
+            </div>
+           
             <div class="adoption-requirements">
                 <h3>Adoption Requirements</h3>
                 <ul>
@@ -60,4 +67,8 @@
         </form>
     </div>
 </body>
-</html>
+</html> 
+
+
+
+               
