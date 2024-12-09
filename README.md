@@ -65,27 +65,6 @@ The footer includes:
 ### Scripts
 + Swiper.js functionality is implemented using `js/script.js`. 📂
   
-## Folder Structure 📂
-.
-├── index.html       # Main HTML file 🌐
-├── index.css        # CSS file for styling 🎨
-├── js
-│   └── script.js    # JavaScript file for dynamic behavior 💻
-├── images           # Folder containing all images 🖼️
-│   ├── about.png
-│   ├── bottom_wave.png
-│   ├── gallery-1.jpg
-│   ├── gallery-2.jpg
-│   ├── gallery-3.jpg
-│   ├── gallery-4.jpg
-│   ├── banner_1.png
-│   ├── animal_1.jpg
-│   ├── animals_2.jpg
-│   ├── animals_3.jpg
-│   ├── animals_4.jpg
-│   ├── pricing1.png
-│   └── pricing2.png
-
 ## How to Use 🚀
 + Clone the repository. 📥
 + Open `index.html` in a browser to view the website. 🌐
