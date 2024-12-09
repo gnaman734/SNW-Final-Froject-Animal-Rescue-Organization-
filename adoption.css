@@ -1,0 +1,82 @@
+body {
+            font-family: Arial, sans-serif;
+            background-color: #f0e6d2;
+            color: #333;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .form-container {
+            background: white;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            padding: 20px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            text-align: center;
+            color: #ff6e01;
+            margin-bottom: 20px;
+        }
+
+        .form-group {
+            margin-bottom: 15px;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"], 
+        input[type="email"], 
+        input[type="tel"], 
+        input[type="date"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+
+        .name-group {
+            display: flex;
+            gap: 10px;
+        }
+
+        .name-group input {
+            flex: 1;
+        }
+
+        .checkbox-group {
+            margin-bottom: 20px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .checkbox-group input {
+            margin-right: 10px;
+            margin-top: 5px;
+        }
+
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #ff6e01;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #e65a00;
+        }
