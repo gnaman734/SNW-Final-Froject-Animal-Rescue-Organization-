@@ -1,6 +1,7 @@
 # GHAR - Giving Homes And Respect 🏠🐾  
 
-![GHAR GIF]([https://i.imgur.com/yourgif.gif](https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExeWNsMmtrb3M1eGsyY3k1OGtsMWE1ZDBweWJ0YmtyaXA0bmt5ejhhcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Re0y55NjzeGLKCNCmQ/giphy.gif))
+![Animal Rescue Demo](../main webpage/images/dog_comp.gif)
+
 
 ## Project Overview 🌟  
 GHAR (Giving Homes and Respect) is a non-profit organization dedicated to rescuing, caring for, and rehoming animals in need. Our project aims to create a user-friendly, interactive website that showcases our mission, connects animal lovers, and encourages adoptions while spreading awareness about animal welfare.
