@@ -88,8 +88,8 @@ For any queries or support, feel free to contact us:
 + **Location**: Pune, India 🏙️
 
 ## Team Members 👩‍💻👩‍💻👨‍💻
-+ Shriti Negi
-+ Riddhi Khera
-+ Naman Gupta
++ Shriti Negi https://www.linkedin.com/in/shriti-negi-323747338/
++ Riddhi Khera https://www.linkedin.com/in/riddhikhera/
++ Naman Gupta https://www.linkedin.com/in/naman-gupta-769509297/
 
 Thank you for supporting GHAR and our mission to create a better world for animals! 🐾❤️🌈
