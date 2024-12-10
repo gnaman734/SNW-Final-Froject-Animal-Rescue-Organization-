@@ -1,6 +1,6 @@
 # GHAR - Giving Homes And Respect 🏠🐾  
 
-![Animal Rescue Demo](../main_webpage/images/dog_comp.gif)
+![Animal Rescue Demo](../dog_comp.gif)
 
 
 ## Project Overview 🌟  
