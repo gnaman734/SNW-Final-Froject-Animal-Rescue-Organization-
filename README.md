@@ -78,8 +78,7 @@ project-directory/
 │   ├── logo.jpg
 │   └── other HTML files (e.g., about_new.html, donate.html, adoption.html)
 │
-├── index.html
-└── README.md
+└── index.html
 ```
 
 ---
