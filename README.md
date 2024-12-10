@@ -1,91 +1,111 @@
-# GHAR - Giving Homes And Respect 🏠🐾
+# GHAR - Giving Homes And Respect 🏠🐾  
 
-## Overview 🌟
-GHAR is a heartfelt initiative dedicated to rescuing, sheltering, and finding loving homes for animals in need. This website serves as a platform to showcase our mission, connect with the community, and provide essential resources for animal lovers and potential adopters. 🐶❤️
-It is also our final S&W endsem group project in which we have put our heart and soul to make it pawfect :) 🌈
+## Project Overview 🌟  
+GHAR (Giving Homes and Respect) is a non-profit organization dedicated to rescuing, caring for, and rehoming animals in need. Our project aims to create a user-friendly, interactive website that showcases our mission, connects animal lovers, and encourages adoptions while spreading awareness about animal welfare.
 
-## Team Members 👩‍💻👩‍💻👨‍💻
-+ **Riddhi Khera** [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riddhikhera/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/code-x-r)
+---
 
-+ **Shriti Negi** [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shriti-negi-323747338/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/Shriti507)
+## Features 📋  
 
-+ **Naman Gupta** [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naman-gupta-769509297/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/gnaman734)
+### **1. Navigation Bar**  
+- Seamless browsing experience with links to Home, About, Gallery, Rescue, Adoption, and Contact sections.
 
+### **2. Home Section**  
+- Eye-catching hero section with a call-to-action button to "Meet the Animals."
 
-## Features 📋
-### 1. **Navigation Bar** 🧭
-The navigation bar provides quick links to various sections of the website:
-+ Home 🏡
-+ About 📖
-+ Gallery 📸
-+ Animal 🐾
-+ Adoption 💕
-+ Contact 📞
+### **3. About Us Section**  
+- Information about our mission and values.
+- Highlights our efforts to educate, inspire, and connect with the community.
 
-### 2. **Login Form** 🔐
-A login form is available for users to sign in and access personalized features.
+### **4. Gallery Section**  
+- A beautiful image swiper showcasing rescued animals and our organization's activities.
 
-### 3. **Home Section** 🏠
-The homepage welcomes visitors with a call to action to adopt rescued animals and highlights our mission. 🤝
+### **5. Rescue Section**  
+- Categorized animal profiles (e.g., dogs, cats, cows) with detailed information and images.
 
-### 4. **About Us Section** 📚
-This section shares our mission and the values we uphold, including educating, inspiring, and caring for animals. 🌈
+### **6. Adoption Section**  
+- Detailed resources for potential adopters, including information about breeds, steps to adopt, and support.
 
-### 5. **Gallery Section** 🖼️
+### **7. Contact Section**  
+- A form for users to get in touch with us for queries, collaborations, or feedback.
 
-A visually appealing swiper-based gallery showcases images of our rescued animals and activities.
+### **8. Footer**  
+- Quick links, contact information, and a subscription box for newsletters.
+- Social media icons for better connectivity.
 
-### 6. **Animal Section** 🐕
-Details about animals available for adoption, categorized into Dogs, Cats, Birds, and Rabbits. Each category includes a "See Details" button for further information. 🐈🐦🐰
+---
 
-### 7. **Adoption Section** 💖
-A comprehensive section dedicated to the adoption process, featuring:
-+ Step-by-step adoption guidelines 📋
-+ Detailed information about adoption fees 💲
-+ Application forms for individuals, families, and school groups 📝
-+ Requirements and eligibility criteria for potential adopters 🤝
-+ Support and guidance throughout the adoption journey 🌟
+## Technologies Used 💻  
 
-### 8. **Contact Section** 📧
-A contact form allows users to reach out to us with their queries or to get involved.
+### **Frontend:**  
+- **HTML5**: Structure of the website.  
+- **CSS3**: Styling and layout.  
+- **JavaScript**: Interactive elements and dynamic behavior.  
 
-### 9. **Footer** 🔻
-The footer includes:
-+ About Us 📖
-+ Zoo Information 🏞️
-+ Contact Info 📱
-+ Quick Links 🔗
-+ Newsletter Subscription 📰
-+ Social Media Links 🌐
+### **External Libraries:**  
+- **Font Awesome**: For icons.  
+- **Swiper.js**: For the gallery slider.  
 
-## Technologies Used 💻
-### Frontend
-+ **HTML5**: For the structure of the website. 🌐
-+ **CSS3**: For styling and design (external stylesheet linked via `index.css`). 🎨
-+ **Font Awesome**: For icons. 🖼️
-+ **Swiper.js**: For interactive sliders in the gallery section. 📸
- 
-### External Libraries
-+ **Font Awesome**: `https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css` 🌐
-+ **Swiper.js**: `https://unpkg.com/swiper@7/swiper-bundle.min.css` 🖼️
-  
-### Scripts
-+ Swiper.js functionality is implemented using `js/script.js`. 📂
-  
-## How to Use 🚀
-+ Clone the repository. 📥
-+ Open `index.html` in a browser to view the website. 🌐
-+ Use the navigation bar to explore different sections. 🧭
-+ Interact with the gallery and animal sections to learn more about our animals and adoption process. 🐾
-+ Fill out the contact form to connect with us. 📞
+---
 
-## Future Enhancements 🚧
-+ Add dynamic backend functionality for user registration and login. 🔐
-+ Integrate a database to store animal and adoption records. 📊
-+ Create an admin panel for managing website content. 🖥️
-+ Introduce live chat support for inquiries. 💬
+## How to Run the Project ▶️  
 
-## Contribution 🤝
-We welcome contributions to improve the website. Feel free to fork the repository and create pull requests. For major changes, please open an issue first to discuss the proposed changes. 🌟
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/username/ghar-animal-rescue.git
+   cd ghar-animal-rescue
+   ```
 
-Thank you for supporting GHAR and our mission to create a better world for animals! 🐾❤️
+2. Open the project directory.  
+
+3. Launch `index.html` in your browser.  
+
+4. Ensure the `main webpage` folder is in the correct directory to load images and styles.  
+
+---
+
+## File Structure 📁  
+
+```
+project-directory/
+│
+├── main webpage/
+│   ├── css/
+│   │   └── style.css
+│   ├── images/
+│   ├── js/
+│   │   └── script.js
+│   ├── logo.jpg
+│   └── other HTML files (e.g., about_new.html, donate.html, adoption.html)
+│
+├── index.html
+└── README.md
+```
+
+---
+
+## Contributors 👩‍💻👨‍💻  
+
+| Name           | LinkedIn                                     | GitHub                                      |  
+|----------------|---------------------------------------------|---------------------------------------------|  
+| **Riddhi Khera**  | [LinkedIn](https://www.linkedin.com/in/riddhikhera/) | [GitHub](https://github.com/code-x-r) |  
+| **Shriti Negi**   | [LinkedIn](https://www.linkedin.com/in/shriti-negi-323747338/) | [GitHub](https://github.com/Shriti507) |  
+| **Naman Gupta**   | [LinkedIn](https://www.linkedin.com/in/naman-gupta-769509297/) | [GitHub](https://github.com/gnaman734) |  
+
+---
+
+## Future Enhancements 🚀  
+
+1. Add a **donation system** for online contributions.  
+2. Implement **user accounts** for tracking adoption status and volunteering.  
+3. Introduce a **live chat** feature for instant support.  
+4. Optimize for **mobile and tablet** devices.  
+5. Integrate **Google Maps** for rescue locations.  
+
+---
+
+## Acknowledgments ❤️  
+- Thanks to all contributors and supporters who made this project possible.  
+- Special thanks to the animal welfare community for inspiring us.  
+
+**Together, let's make the world a better place for our furry friends!** 🐾
