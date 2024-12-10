@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer Application</title>
+<link rel="stylesheet" href="volunteer.css">
+<script src="https://www.google.com/recaptcha/api.js" async defer></script>
+
+</head>
+<body>
+    <div class="form-container">
+        <h1>Volunteer Application</h1>
+        <form>
+            <div class="form-group">
+                <label for="name">Full Name<sup>*</sup></label>
+                <input type="text" id="name" placeholder="Enter your full name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address<sup>*</sup></label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number<sup>*</sup></label>
+                <input type="tel" id="phone" placeholder="Enter your phone number">
+            </div>
+
+            <div class="form-group checkbox-group">
+                <label>Volunteer Areas</label>
+                <label><input type="checkbox" value="animalCare"> Animal Care</label>
+                <label><input type="checkbox" value="fundraising"> Fundraising</label>
+                <label><input type="checkbox" value="marketing"> Marketing</label>
+                <label><input type="checkbox" value="eventSupport"> Event Support</label>
+            </div>
+
+            <div class="form-group">
+                <label for="availability">Availability<sup>*</sup></label>
+                <select id="availability">
+                    <option value="">Select availability</option>
+                    <option value="weekdays">Weekdays</option>
+                    <option value="weekends">Weekends</option>
+                    <option value="evenings">Evenings</option>
+                    <option value="flexible">Flexible</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="message">Additional Information<sup>*</sup></label>
+                <textarea id="message" rows="4" placeholder="Tell us about yourself"></textarea>
+            </div>
+
+            <div>
+                <label for="verify">Verification</label>
+                <div class="g-recaptcha" data-sitekey="6LdVy5cqAAAAAPuN8UACLOvdXP9ZDcUGbWy3kpcy"></div>
+            </div>
+
+            <button type="submit">Submit Application</button>
+        </form>
+    </div>
+</body>
+</html>

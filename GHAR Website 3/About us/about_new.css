@@ -1,0 +1,80 @@
+#heading{
+    font-weight: bold;
+    font-size:120px;
+    margin-left:300px;
+    margin-top:80px;
+    background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Change the colors as needed */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    background-clip: text; 
+}
+
+
+#image1 {
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Ensures the image covers the entire area */
+}
+
+.wave {
+    position: absolute;
+    bottom: 0; 
+    left: 0;
+    width: 100%; /* Make the wave cover the full width */
+    height: 100; /* Maintain aspect ratio */
+    /* Optional: Add a z-index if you want the wave to be on top of other elements */
+    z-index: 1; 
+} 
+    /* z-index: 1;  */
+    
+
+#heading {
+    position: absolute;
+    top: 20px;
+    left: 280px; 
+    color: white; 
+    z-index: 2; 
+    /* text-align:center; */
+}
+
+.container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(bear.jpg) no-repeat;
+    background-size: cover;
+    background-position: top;
+}
+
+p{
+    font-size:22px;
+}
+
+h1{
+    color:#ff6e01
+
+}
+
+li{
+    font-size:20px;
+}
+
+span{
+    font-weight: bold;
+}
+ 
+.image img{
+    /* width:200px;
+    height:200px; */
+    border-radius:20px;
+    margin-top:10px;
+   
+}
+footer {
+    background-color: #f1e1d2;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

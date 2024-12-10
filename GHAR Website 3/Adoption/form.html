@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Adoption Agreement</title>
+    <link rel="stylesheet" href="form.css">
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
+</head>
+<body>
+    <div class="form-container">
+        <h1>Pet Adoption Agreement</h1>
+        <form>
+            <div class="form-group">
+                <label for="animalName">Animal's Name<sup>*</sup></label>
+                <input type="text" id="animalName" placeholder="Enter animal's name" required>
+            </div>
+
+            <div class="form-group">
+                <label>Adopter's Name<sup>*</sup></label>
+                <div class="name-group">
+                    <input type="text" placeholder="First Name" required>
+                    <input type="text" placeholder="Last Name" required>
+                </div>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address<sup>*</sup></label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number<sup>*</sup></label>
+                <input type="tel" id="phone" placeholder="Enter your phone number" required>
+            </div>
+
+            <div class="form-group">
+                <label for="date">Adoption Date<sup>*</sup></label>
+                <input type="date" id="date" required>
+            </div>
+
+            <div class="checkbox-group">
+                <input type="checkbox" id="agreement" required>
+                <label for="agreement">
+                    I agree to the terms and conditions of this adoption, including no guarantees about the animal's temperament or suitability.
+                </label>
+            </div>
+
+
+            <div>
+                <label for="verify">Verification</label>
+                <div class="g-recaptcha" data-sitekey="6LdVy5cqAAAAAPuN8UACLOvdXP9ZDcUGbWy3kpcy"></div>
+
+            </div>
+
+            <button type="submit">Submit Form</button>
+        </form>
+    </div>
+</body>
+</html>

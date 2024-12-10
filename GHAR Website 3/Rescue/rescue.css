@@ -1,0 +1,256 @@
+@import url("http://fonts.googleapis.com/css?family=serif:400,300,700");
+
+body {
+    font-family: 'Arial', sans-serif; 
+    line-height: 1.6;  
+    color: #333; 
+}
+html, body {
+    background-color:antiquewhite !important; /* Use !important as a last resort */
+}
+
+
+h2, h3, h4 {
+    font-family: 'Georgia', serif; 
+    color: #3498db; 
+    font-weight:bold;
+}
+
+
+.grid-container{
+    display:grid;
+    grid-template-rows:repeat(2,80px);
+    grid-template-columns: repeat(2,200px);
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+    row-gap: 10px;
+}
+
+.grid-item{
+  
+    background-color:rgb(255, 206, 143);
+    
+    width:200px;
+    height:50px;
+    text-align:center;
+
+   
+}
+
+h2{
+    text-align:center;
+}
+
+#paraone{
+    font-size:20px;
+
+}
+
+#button1{
+    background-color:rgb(137, 205, 230);
+    border-radius:15px;
+    font-size:16px;
+    border-color:transparent;
+    padding-left: 15px;
+    padding-right:15px;
+    border-width: 2px;
+    margin-left:300px;
+
+
+}
+ 
+
+.image-container {
+    display: flex; 
+    gap: 20px; 
+    justify-content:space-evenly;
+    align-items:space-evenly;
+    
+}
+      
+.image-container img {
+    width: 100px; 
+    height: 100px; 
+    border-radius:4px;
+    margin:8px;
+    
+}
+ .image{
+    border:1px dashed black;
+    border-radius:5px;
+    width:200px;
+    height:400px;
+    margin:0;
+} 
+
+
+.text{
+    font-size:20px;
+    text-align:center;
+    
+}
+
+
+.grid-container{
+    display:grid;
+    grid-template-rows:repeat(2,80px);
+    grid-template-columns: repeat(2,200px);
+
+    justify-content: center;
+    align-items:center;
+    gap: 20px;
+    row-gap: 10px;
+}
+
+
+.grid-item{
+    /* background-color: rgb(203, 203, 215); */
+    
+    width:200px;
+    height:50px;
+    text-align:center;
+
+   
+}
+
+
+#item1{
+    border:1px solid black;
+    border-radius:5px;
+    background-color:rgb(124, 216, 216);
+    border-color:transparent;
+    
+   
+
+}
+#item2{
+    border:1px solid black;
+    border-color:transparent;
+    border-radius:5px;
+    background-color:rgb(124, 216, 216);
+    
+
+
+    
+}
+#item3{
+    border:1px solid black;
+    background-color:rgb(124, 216, 216);
+    border-radius:5px;
+    border-color:transparent;
+    
+    
+}
+#item4{
+    border:1px solid black;
+    background-color:rgb(124, 216, 216);
+    border-radius:5px;
+    border-color:transparent;
+    
+}
+
+.apply{
+    background-color:rgb(137, 205, 230);
+    color:rgb(246, 239, 239);
+    border-color:transparent;
+    border-radius:15px;
+    font-size:14px;
+    text-decoration: none;
+    }
+    
+    * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+    }
+    
+   
+    
+    .container {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .section {
+        background: #fff;
+        padding: 20px;
+        margin: 10px 0;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+    
+    h2, h3, h4 {
+        color: #2c3e50;
+    }
+    
+    .apply {
+        background: #3498db;
+        color: #fff;
+        border: none;
+        padding: 10px 15px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin-top: 10px;
+    }
+    
+    .apply:hover {
+        background: #2980b9;
+    }
+    
+    .credit {
+        text-align: center;
+        margin-top: 20px;
+        font-size: 0.9em;
+    }
+    
+    .link {
+        color: #e74c3c;
+    }
+    
+    @media (max-width: 600px) {
+        .container {
+            padding: 10px;
+        }
+    
+        .section {
+            padding: 15px;
+        }
+    
+        .apply {
+            width: 100%;
+        }
+    }
+    
+
+    .image-container {
+        display: flex;
+        justify-content: center; 
+        align-items: center; 
+        flex-wrap: wrap; 
+        gap: 8px; /
+    }
+    
+    .image {
+        text-align: center; 
+        
+        
+    }
+    .image img {
+        width: 170px; /* Set the desired width */
+        height: 170px; /* Set the desired height */
+        object-fit: cover; /* Ensures the image covers the area without distortion */
+    }
+
+
+
+
+    p {
+        font-size: 16px; /* Adjust paragraph font size */
+    }
+
+
+
+    
