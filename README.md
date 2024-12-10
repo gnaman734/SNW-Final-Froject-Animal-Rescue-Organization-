@@ -1,9 +1,16 @@
 # GHAR - Giving Homes And Respect 🏠🐾
 
-
 ## Overview 🌟
 GHAR is a heartfelt initiative dedicated to rescuing, sheltering, and finding loving homes for animals in need. This website serves as a platform to showcase our mission, connect with the community, and provide essential resources for animal lovers and potential adopters. 🐶❤️
-It is also our final S&W endsem group project in which we have put our heart and soul.
+It is also our final S&W endsem group project in which we have put our heart and soul to make it pawfect :) 🌈
+
+## Team Members 👩‍💻👩‍💻👨‍💻
++ **Riddhi Khera** [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riddhikhera/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/code-x-r)
+
++ **Shriti Negi** [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shriti-negi-323747338/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/Shriti507)
+
++ **Naman Gupta** [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naman-gupta-769509297/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/gnaman734)
+
 
 ## Features 📋
 ### 1. **Navigation Bar** 🧭
@@ -81,19 +88,4 @@ The footer includes:
 ## Contribution 🤝
 We welcome contributions to improve the website. Feel free to fork the repository and create pull requests. For major changes, please open an issue first to discuss the proposed changes. 🌟
 
-## Contact 📧
-For any queries or support, feel free to contact us:
-+ **Email**: ghar@gmail.com 📨
-+ **Phone**: 1245-147-2589 📞
-+ **Location**: Pune, India 🏙️
-
-## Team Members 👩‍💻👩‍💻👨‍💻
-
-+ **Riddhi Khera**  [![LinkedIn](https://img.icons8.com/ios-filled/30/0077b5/linkedin.png)](https://www.linkedin.com/in/riddhikhera/) [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/code-x-r)
-
-+ **Shriti Negi** [![LinkedIn](https://img.icons8.com/ios-filled/30/0077b5/linkedin.png)](https://www.linkedin.com/in/shriti-negi-323747338/) [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/Shriti507)
-
-
-+ Naman Gupta [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naman-gupta-769509297/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/gnaman734)
-
-Thank you for supporting GHAR and our mission to create a better world for animals! 🐾❤️🌈
+Thank you for supporting GHAR and our mission to create a better world for animals! 🐾❤️
