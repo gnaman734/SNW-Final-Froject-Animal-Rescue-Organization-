@@ -88,9 +88,10 @@ For any queries or support, feel free to contact us:
 + **Location**: Pune, India 🏙️
 
 ## Team Members 👩‍💻👩‍💻👨‍💻
-+ Riddhi Khera [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riddhikhera/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/code-x-r)
 
-+ Shriti Negi [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shriti-negi-323747338/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/Shriti507)
++ **Riddhi Khera**  [![LinkedIn](https://img.icons8.com/ios-filled/30/0077b5/linkedin.png)](https://www.linkedin.com/in/riddhikhera/) [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/code-x-r)
+
++ **Shriti Negi** [![LinkedIn](https://img.icons8.com/ios-filled/30/0077b5/linkedin.png)](https://www.linkedin.com/in/shriti-negi-323747338/) [![GitHub](https://img.icons8.com/ios-glyphs/30/000000/github.png)](https://github.com/Shriti507)
 
 
 + Naman Gupta [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naman-gupta-769509297/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/gnaman734)
