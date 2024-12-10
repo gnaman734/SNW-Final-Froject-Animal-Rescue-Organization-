@@ -88,8 +88,11 @@ For any queries or support, feel free to contact us:
 + **Location**: Pune, India 🏙️
 
 ## Team Members 👩‍💻👩‍💻👨‍💻
-+ Shriti Negi https://www.linkedin.com/in/shriti-negi-323747338/
-+ Riddhi Khera https://www.linkedin.com/in/riddhikhera/
-+ Naman Gupta https://www.linkedin.com/in/naman-gupta-769509297/
++ Riddhi Khera [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riddhikhera/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/code-x-r)
+
++ Shriti Negi [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shriti-negi-323747338/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/Shriti507)
+
+
++ Naman Gupta [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naman-gupta-769509297/) [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/gnaman734)
 
 Thank you for supporting GHAR and our mission to create a better world for animals! 🐾❤️🌈
