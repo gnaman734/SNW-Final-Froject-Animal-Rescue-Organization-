@@ -84,13 +84,13 @@ project-directory/
 
 ---
 
-## Contributors 👩‍💻👨‍💻  
+## Contributors 👩‍💻👩‍💻👨‍💻  
 
 | Name           | LinkedIn                                     | GitHub                                      |  
 |----------------|---------------------------------------------|---------------------------------------------|  
-| **Riddhi Khera**  | [LinkedIn](https://www.linkedin.com/in/riddhikhera/) | [GitHub](https://github.com/code-x-r) |  
-| **Shriti Negi**   | [LinkedIn](https://www.linkedin.com/in/shriti-negi-323747338/) | [GitHub](https://github.com/Shriti507) |  
-| **Naman Gupta**   | [LinkedIn](https://www.linkedin.com/in/naman-gupta-769509297/) | [GitHub](https://github.com/gnaman734) |  
+| **Riddhi Khera**  | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/riddhikhera/) | [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/code-x-r) |  
+| **Shriti Negi**   | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shriti-negi-323747338/)  | [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/Shriti507) |  
+| **Naman Gupta**   | [![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/naman-gupta-769509297/) | [![GitHub](https://img.shields.io/badge/-GitHub-black?style=flat&logo=github&logoColor=white)](https://github.com/gnaman734) |  
 
 ---
 
