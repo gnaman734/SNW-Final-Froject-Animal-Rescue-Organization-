@@ -25,7 +25,7 @@ GHAR (Giving Homes and Respect) is a non-profit organization dedicated to rescui
 - Categorized animal profiles (e.g., dogs, cats, cows) with detailed information and images.
 
 ### **6. Adoption Section**  
-- Detailed resources for potential adopters, including information about breeds, steps to adopt, and support.
+- Detailed resources for potential adopters, including information about breeds, steps to adopt, and support along with volunteer form.
 
 ### **7. Contact Section**  
 - A form for users to get in touch with us for queries, collaborations, or feedback.
