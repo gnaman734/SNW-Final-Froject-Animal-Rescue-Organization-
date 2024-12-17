@@ -15,7 +15,7 @@ GHAR (Giving Homes and Respect) is a non-profit organization dedicated to rescui
 - Eye-catching hero section with a call-to-action button to "Meet the Animals."
 
 ### **3. About Us Section**  
-- Information about our mission and values.
+- Gives information about our mission and values.
 - Highlights our efforts to educate, inspire, and connect with the community.
 
 ### **4. Gallery Section**  
