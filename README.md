@@ -39,9 +39,9 @@ GHAR (Giving Homes and Respect) is a non-profit organization dedicated to rescui
 ## Technologies Used 💻  
 
 ### **Frontend:**  
-- **HTML5**: Structure of the website.  
-- **CSS3**: Styling and layout.  
-- **JavaScript**: Interactive elements and dynamic behavior.  
+- **HTML5**: For structure of the website.  
+- **CSS3**: For styling and layout.  
+- **JavaScript**: For interactive elements and dynamic behavior.  
 
 ### **External Libraries:**  
 - **Font Awesome**: For icons.  
